@@ -1,0 +1,32 @@
+/* .auth-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .auth-section a, .auth-section button {
+    background-color: #ff9800;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-section button:hover {
+    background-color: #e68900;
+  }
+  
+  .account-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  .account-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+   */

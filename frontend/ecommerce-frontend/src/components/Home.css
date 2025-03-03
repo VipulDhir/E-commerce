@@ -1,0 +1,44 @@
+Ensure products display in a grid
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Fix product card styling */
+.product-card {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+/* Fix buttons to remove purple color */
+button {
+  background-color: #007bff; /* ✅ Change to your theme color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3; /* ✅ Slightly darker on hover */
+}
+
+/* Ensure navbar links don't turn purple */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #007bff; /* ✅ Match with button color */
+}
